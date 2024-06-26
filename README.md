@@ -7,16 +7,17 @@ Insertion Sort-Merge Sort-Binary Search Tree
 
 a- Yukarıdaki dizinin sort aşamaları
 
-1-[2,22,27,16,18,6]
-2-[2,6,22,27,16,18]
-3-[2,6,16,22,27,18]
-4-[2,6,16,18,22,27]
+    1-[2,22,27,16,18,6]
+    2-[2,6,22,27,16,18]
+    3-[2,6,16,22,27,18]
+    4-[2,6,16,18,22,27]
 
 b- Big o gösterimi => O(n^2)
 
 c- Avarage Case kapsamına girer çünkü 18 sayısı ortada kalıyor.
 
 d- [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
 
     [2, | 3, 5, 8, 7, 9, 4, 15, 6]
     [2, 3, | 5, 8, 7, 9, 4, 15, 6]
@@ -34,7 +35,9 @@ d- [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazın
 
 Q- Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
-a- [16,21,11] - [8,12,22]
+a-
+    
+    [16,21,11] - [8,12,22]
     [16] [21,11] - [8] [12,22]
     [16] [21] [11] - [8] [12] [22]
     [16] [11,21] - [8] [12,22]
@@ -50,6 +53,7 @@ b- Big o gösterimi => O(nlogn)
 Q-[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 
 Root => 7
+
                            7
                 5                       8  
         1             6                        9
